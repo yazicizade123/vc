@@ -1,0 +1,23 @@
+[
+    {
+        "word": "apple",
+        "partOfSpeech": "noun",
+        "phonetic": "ˈæpəl",
+        "definition": "a round fruit with red or green skin and a whitish interior",
+        "example": "She took a bite of the juicy apple."
+    },
+    {
+        "word": "banana",
+        "partOfSpeech": "noun",
+        "phonetic": "bəˈnænə",
+        "definition": "a long curved fruit with a yellow skin",
+        "example": "He ate a banana for breakfast."
+    },
+    {
+        "word": "computer",
+        "partOfSpeech": "noun",
+        "phonetic": "kəmˈpjuː.tər",
+        "definition": "an electronic device for storing and processing data",
+        "example": "I use my computer to browse the internet."
+    }
+]

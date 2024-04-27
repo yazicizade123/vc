@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Dictionary</title>
+</head>
+<body>
+    <div class="welcome-section">
+        <h1>Hoşgeldiniz</h1>
+    </div>
+    <audio id="sound"></audio>
+    <div class="search-container">
+        <div class="welcome-message">
+        <h2>Bakalım Hakaret mi?</h2>
+    </div>
+        <div class="search-box">
+            <input
+                type="text"
+                placeholder="Aramak istediğiniz kelimeyi giriniz.."
+                id="inp-word"
+            />
+            <button id="search-btn">Ara</button>
+        </div>
+        <div class="container hidden">
+        <div class="result" id="result"></div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+    <script src="kelimeler.json"></script>
+</body>
+</html>
